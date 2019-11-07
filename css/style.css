@@ -13,16 +13,13 @@ html, body{
 .background{
 	width: 100%;
 	height: 100%;
-<<<<<<< HEAD
 	background-image: url(../images/2019_11_07_Kleki.png);
-=======
-	background-image: url(../images/_MG_1185.JPG);
->>>>>>> 4193cdcb4ac9719b7dbd1ffea660f6aeb7354488
 	background-repeat: no-repeat;
 	background-size: cover;
 	position: relative;
 	overflow-y: auto;
 }
+
 .nav{
 	width: 350px;
 	height: auto;
@@ -86,25 +83,25 @@ a.active, .nav a:hover{
 	font-family: Times New Roman;
 }
 .home h1{
-	font-size: 30px;
+	font-size: 50px;
 	padding-right: 90px;
 	border-bottom: 1px solid white;
 	text-transform: uppercase;
 }
 .home h3{
-	font-size: 28px;
+	font-size: 35px;
 	padding: 5px 0;
 	opacity: 0,7;
 	text-transform: uppercase;
 }
 .home h4{
-	font-size: 28px;
+	font-size: 35px;
 	padding: 5px 0;
 	opacity: 0,7;
 	text-transform: uppercase;
 }
 .home h5{
-	font-size: 28px;
+	font-size: 35px;
 	padding: 5px 0;
 	opacity: 0,7;
 	text-transform: uppercase;
@@ -115,16 +112,19 @@ a.active, .nav a:hover{
 	left: -90px;
 	right: 0;
 	top: 20px
-	color: white;
+	color: #000;
 	font-family: Times New Roman;
-	padding: 0 100px;
+	padding: 0 150px;
+	box-shadow: 0 5px 15px rgba(0,0,0,.5);
 	display: none;
 }
+
 .personalinfo p{
 	color: white;
 	font-size: 18px;
 	line-height: 28px;
 	margin-bottom: 15px;
+	z-index: 2;
 }
 
 
@@ -135,7 +135,8 @@ a.active, .nav a:hover{
 	top: 20px
 	color: white;
 	font-family: Times New Roman;
-	padding: 0 100px;
+	padding: 0 150px;
+	box-shadow: 0 5px 15px rgba(0,0,0,.5);
 	display: none;
 }
 .itinterest p{
@@ -153,6 +154,7 @@ a.active, .nav a:hover{
 	font-color: white;
 	font-family: Times New Roman;
 	padding: 0 100px;
+	box-shadow: 0 5px 15px rgba(0,0,0,.5);
 	display: none;
 }
 .idealjob p{

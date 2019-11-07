@@ -195,6 +195,13 @@ a.active, .nav a:hover{
 	width: 100%;
 	margin:1%;
 	float: left;
+	transition: all ease 0.5s;
+	-webkit-transition: all ease 0.5s;
+	transform: scale(1);
+	-webkit-transform: scale(1);
+}
+.image:hover{
+	transform: scale(1.1);
 }
 
 .image img{

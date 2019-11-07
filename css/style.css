@@ -116,6 +116,7 @@ a.active, .nav a:hover{
 	font-family: Times New Roman;
 	padding: 0 150px;
 	box-shadow: 0 5px 15px rgba(0,0,0,.5);
+	background-image: url(../images/dim.png);
 	display: none;
 }
 
@@ -137,6 +138,7 @@ a.active, .nav a:hover{
 	font-family: Times New Roman;
 	padding: 0 150px;
 	box-shadow: 0 5px 15px rgba(0,0,0,.5);
+	background-image: url(../images/dim.png);
 	display: none;
 }
 .itinterest p{
@@ -153,8 +155,9 @@ a.active, .nav a:hover{
 	top: 20px
 	font-color: white;
 	font-family: Times New Roman;
-	padding: 0 100px;
+	padding: 0 150px;
 	box-shadow: 0 5px 15px rgba(0,0,0,.5);
+	background-image: url(../images/dim.png);
 	display: none;
 }
 .idealjob p{
@@ -163,8 +166,55 @@ a.active, .nav a:hover{
 	line-height: 28px;
 	margin-bottom: 15px;
 }
-
 .job{
 	width: 700px;
 	height: 450px;
+	transition: all ease 0.5s;
+	-webkit-transition: all ease 0.5s;
+	transform: scale(1);
+	-webkit-transform: scale(1);
+}
+
+.job:hover{
+	transform: scale(1.1);
+}
+
+.personalprofile{
+	position: absolute;
+	left: -40px;
+	right: 0;
+	top: 50px
+	font-color: white;
+	font-family: Times New Roman;
+	padding: 0 150px;
+	box-shadow: 0 5px 15px rgba(0,0,0,.5);
+	background-image: url(../images/dim.png);
+	display: none;
+}
+.personalprofile .image{
+	width: 100%;
+	margin:1%;
+	float: left;
+}
+
+.image img{
+	width: 100%;
+}
+
+.personalprofile h1{
+	text-align: center;
+	color: white;
+	font-size: 22px;
+}
+
+.personalprofile h2{
+	text-align: center;
+	color: white;
+	font-size: 22px;
+}
+
+.personalprofile h3{
+	text-align: center;
+	color: white;
+	font-size: 22px;
 }

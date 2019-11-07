@@ -13,11 +13,7 @@ html, body{
 .background{
 	width: 100%;
 	height: 100%;
-<<<<<<< HEAD
 	background-image: url(../images/2019_11_07_Kleki.png);
-=======
-	background-image: url(../images/_MG_1185.JPG);
->>>>>>> 4193cdcb4ac9719b7dbd1ffea660f6aeb7354488
 	background-repeat: no-repeat;
 	background-size: cover;
 	position: relative;

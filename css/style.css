@@ -72,8 +72,8 @@ a.active, .nav a:hover{
 	width: 900px;
 	min-height: 500px;
 	height: auto;
-	right: 0;
-	top: 15%;
+	right: 10px;
+	top: 10%;
 }
 .home{
 	position: absolute;
@@ -114,7 +114,7 @@ a.active, .nav a:hover{
 	top: 20px
 	color: #000;
 	font-family: Times New Roman;
-	padding: 0 150px;
+	padding: 0 200px;
 	box-shadow: 0 5px 15px rgba(0,0,0,.5);
 	background-image: url(../images/dim.png);
 	display: none;
@@ -136,7 +136,7 @@ a.active, .nav a:hover{
 	top: 20px
 	color: white;
 	font-family: Times New Roman;
-	padding: 0 150px;
+	padding: 0 200px;
 	box-shadow: 0 5px 15px rgba(0,0,0,.5);
 	background-image: url(../images/dim.png);
 	display: none;
@@ -155,7 +155,7 @@ a.active, .nav a:hover{
 	top: 20px
 	font-color: white;
 	font-family: Times New Roman;
-	padding: 0 150px;
+	padding: 0 200px;
 	box-shadow: 0 5px 15px rgba(0,0,0,.5);
 	background-image: url(../images/dim.png);
 	display: none;
@@ -167,8 +167,8 @@ a.active, .nav a:hover{
 	margin-bottom: 15px;
 }
 .job{
-	width: 700px;
-	height: 450px;
+	width: 600px;
+	height: 400px;
 	transition: all ease 0.5s;
 	-webkit-transition: all ease 0.5s;
 	transform: scale(1);
@@ -186,7 +186,7 @@ a.active, .nav a:hover{
 	top: 50px
 	font-color: white;
 	font-family: Times New Roman;
-	padding: 0 150px;
+	padding: 0 200px;
 	box-shadow: 0 5px 15px rgba(0,0,0,.5);
 	background-image: url(../images/dim.png);
 	display: none;

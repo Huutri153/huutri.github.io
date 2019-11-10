@@ -135,7 +135,7 @@ a.active, .nav a:hover{
 .personalinfo p{
 	color: white;
 	font-size: 18px;
-	line-height: 28px;
+	line-height: 35px;
 	margin-bottom: 15px;
 	z-index: 2;
 }
@@ -156,7 +156,7 @@ a.active, .nav a:hover{
 .itinterest p{
 	color: white;
 	font-size: 18px;
-	line-height: 28px;
+	line-height: 35px;
 	margin-bottom: 15px;
 }
 
@@ -175,7 +175,7 @@ a.active, .nav a:hover{
 .idealjob p{
 	color: white;
 	font-size: 18px;
-	line-height: 28px;
+	line-height: 35px;
 	margin-bottom: 15px;
 }
 .job{
@@ -258,7 +258,7 @@ a.active, .nav a:hover{
 .personalprofile p{
 	color: white;
 	font-size: 18px;
-	line-height: 28px;
+	line-height: 35px;
 	margin-bottom: 15px;
 }
 
@@ -282,7 +282,7 @@ a.active, .nav a:hover{
 .projectidea p{
 	color: white;
 	font-size: 18px;
-	line-height: 28px;
+	line-height: 35px;
 	margin-bottom: 15px;
 }
 

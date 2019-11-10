@@ -4,16 +4,18 @@
 
 }
 html, body{
+	scroll-behavior: smooth;
 	width: 100%;
 	height: 100%;
 	font-size: 14px;
 	font-weight: normal;
-	font-family: Times New Roman;
+	font-family: Verdana;
 }
-.background{
+
+section{
 	width: 100%;
 	height: 100%;
-	background-image: url(../images/2019_11_07_Kleki.png);
+	background-image: url(../images/bg.png);
 	background-repeat: no-repeat;
 	background-size: cover;
 	position: relative;
@@ -30,7 +32,7 @@ html, body{
 .nav a{
 	text-decoration: none;
 	font-size: 28px;
-	font-family: Times New Roman;
+	font-family: Verdana;
 	font-weight: bold;
 	height: 90px;
 	margin: 5px 0;
@@ -46,7 +48,7 @@ html, body{
 a.active, .nav a:hover{
 	background-color: white;
 	color: #1f4494;
-	width: 100%;
+	width: 110%;
 }
 .a{
 	width: 95%;
@@ -61,10 +63,10 @@ a.active, .nav a:hover{
 	width: 75%;
 }
 .e{
-	width: 83%;
+	width: 95%;
 }
 .f{
-	width: 90%;
+	width: 100%;
 }
 
 .content{
@@ -72,7 +74,7 @@ a.active, .nav a:hover{
 	width: 900px;
 	min-height: 500px;
 	height: auto;
-	right: 10px;
+	right: 25px;
 	top: 10%;
 }
 .home{
@@ -80,7 +82,7 @@ a.active, .nav a:hover{
 	right: 1;
 	bottom: -50px;
 	color: white;
-	font-family: Times New Roman;
+	font-family: Verdana;
 }
 .home h1{
 	font-size: 50px;
@@ -91,21 +93,10 @@ a.active, .nav a:hover{
 .home h3{
 	font-size: 35px;
 	padding: 5px 0;
-	opacity: 0,7;
+	opacity: 0,5;
 	text-transform: uppercase;
 }
-.home h4{
-	font-size: 35px;
-	padding: 5px 0;
-	opacity: 0,7;
-	text-transform: uppercase;
-}
-.home h5{
-	font-size: 35px;
-	padding: 5px 0;
-	opacity: 0,7;
-	text-transform: uppercase;
-}
+
 
 .personalinfo{
 	position: absolute;
@@ -113,11 +104,32 @@ a.active, .nav a:hover{
 	right: 0;
 	top: 20px
 	color: #000;
-	font-family: Times New Roman;
-	padding: 0 200px;
+	font-family: Verdana;
+	padding: 0 150px;
 	box-shadow: 0 5px 15px rgba(0,0,0,.5);
 	background-image: url(../images/dim.png);
 	display: none;
+}
+
+.info{
+	transition: all ease 0.5s;
+	-webkit-transition: all ease 0.5s;
+	transform: scale(1);
+	-webkit-transform: scale(1);
+}
+
+.info:hover{
+	transform: scale(1.1);
+}
+
+.personalinfo p.head{
+	font-size: 20px;
+	color: white;
+	line-height: 58px;
+	font-style: bold;
+	left: 0;
+	
+
 }
 
 .personalinfo p{
@@ -135,8 +147,8 @@ a.active, .nav a:hover{
 	right: 0;
 	top: 20px
 	color: white;
-	font-family: Times New Roman;
-	padding: 0 200px;
+	font-family: Verdana;
+	padding: 0 150px;
 	box-shadow: 0 5px 15px rgba(0,0,0,.5);
 	background-image: url(../images/dim.png);
 	display: none;
@@ -154,8 +166,8 @@ a.active, .nav a:hover{
 	right: 0;
 	top: 20px
 	font-color: white;
-	font-family: Times New Roman;
-	padding: 0 200px;
+	font-family: Verdana;
+	padding: 0 150px;
 	box-shadow: 0 5px 15px rgba(0,0,0,.5);
 	background-image: url(../images/dim.png);
 	display: none;
@@ -181,12 +193,12 @@ a.active, .nav a:hover{
 
 .personalprofile{
 	position: absolute;
-	left: -40px;
+	left: -90px;
 	right: 0;
 	top: 50px
 	font-color: white;
-	font-family: Times New Roman;
-	padding: 0 200px;
+	font-family: Verdana;
+	padding: 0 150px;
 	box-shadow: 0 5px 15px rgba(0,0,0,.5);
 	background-image: url(../images/dim.png);
 	display: none;
@@ -225,3 +237,54 @@ a.active, .nav a:hover{
 	color: white;
 	font-size: 22px;
 }
+
+::-webkit-scrollbar
+{
+	width: 10px;
+}
+
+::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.9);
+	border-radius: 6px;
+}
+
+::-webkit-scrollbar-thumb
+{
+	background: linear-gradient(#6047ff, #bc47ff, #47ceff);
+	border-radius: 6px;
+}
+
+.personalprofile p{
+	color: white;
+	font-size: 18px;
+	line-height: 28px;
+	margin-bottom: 15px;
+}
+
+.projectidea{
+	position: absolute;
+	left: -90px;
+	right: 0;
+	top: 20px
+	font-color: white;
+	font-family: Verdana;
+	padding: 0 150px;
+	box-shadow: 0 5px 15px rgba(0,0,0,.5);
+	background-image: url(../images/dim.png);
+	display: none;
+}
+.projectidea h1{
+	text-align: center;
+	color: white;
+	font-size: 30px;
+}
+.projectidea p{
+	color: white;
+	font-size: 18px;
+	line-height: 28px;
+	margin-bottom: 15px;
+}
+
+
+
